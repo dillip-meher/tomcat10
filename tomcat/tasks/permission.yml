@@ -1,5 +1,5 @@
 ---
-- nmae: grant tomcat ownership on tomcat folder
+- name: grant tomcat ownership on tomcat folder
   command: sudo chown -R tomcat:tomcat /opt/tomcat/
 
 - name: grant extcute permission on bin folder
