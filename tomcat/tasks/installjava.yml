@@ -1,0 +1,8 @@
+---
+- name: Update repositories cache
+  apt:
+    update_cache: yes
+- name: Install "Java" package on node
+  apt:
+    name: default-jdk
+    state: present
