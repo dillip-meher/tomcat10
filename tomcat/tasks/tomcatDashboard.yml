@@ -2,7 +2,7 @@
 - name: copy tomcat user xml file into node
   template:
     src: templates/mytomuser.j2
-    dest: sudo nano /opt/tomcat/conf/tomcat-users.xml
+    dest: /opt/tomcat/conf/tomcat-users.xml
 
 - name: copy tomcat context xml file into node
   template:
