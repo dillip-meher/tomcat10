@@ -1,6 +1,6 @@
 ---
 # tasks file for tomcat
-- include_tasks: addtoomcatuser.yml
+- include_tasks: addtomcatuser.yml
 - include_tasks: installjava.yml
 - include_tasks: downloadtarfile.yml
 - include_tasks: permission.yml
