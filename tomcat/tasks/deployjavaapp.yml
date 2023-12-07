@@ -1,0 +1,6 @@
+---
+- name: deplpy Java application
+  get_url:
+    url: hhttps://github.com/dillip-meher/tomcat10/blob/main/login.war
+    dest: /opt/tomcat/webapps/login.war
+    force_basic_auth: yes
